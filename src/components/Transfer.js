@@ -77,7 +77,7 @@ const Transfer = () => {
                     <Col md>
                         <FloatingLabel controlId="floatingInputTanggalTransfer" label="Tanggal Transfer">
                         <Form.Control
-                            type="date" 
+                            type="datetime-local" 
                             placeholder="Tanggal Transfer"
                             value={tanggalTransfer}
                             onChange={(e) => setTanggalTransfer(e.target.value)}  
